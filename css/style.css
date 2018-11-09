@@ -1,0 +1,877 @@
+/*
+BOOTSTRAP & HTML5 BOILER PLATE JS JQ INTEGRATION ALTOGETHER
+Author: Riyad Ahsan
+Email: riyad298@gmail.com
+URL: http://riyadahsan.com/
+
+/* media query for responsiveness
+@media (max-width: 767px) {}
+@media (min-width: 768px) {}
+@media (min-width: 1200px) {}
+*/
+
+
+body {
+
+
+    font-family: 'Lato', sans-serif;
+}
+
+.header_wrapper {
+    background-image: url(../images/main_background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.nav > li > a {
+
+    color: #ffffff;
+    font-size: 17px;
+}
+
+
+.nav > li > a:hover{
+    background-color:transparent;
+    border-bottom: 2px solid #AA9343;
+    color:#C8AA3B;
+}
+
+.nav > li > a:focus , .nav > li > a:active {
+    background-color:transparent;
+    border: none;
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.ii i {
+    color:#DAB33E;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top:10px;
+}
+.ii i:hover {
+    color:#8A4E05;
+    border-bottom: 2px solid #AA9343;
+}
+
+
+.header_wrapper> div {
+    margin-top: 30px;
+}
+
+.h1 h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 82px;
+    margin-top: 67px;
+    padding: 30px;
+    font-family: 'Yeseva One', cursive;
+}
+
+.im img {
+    margin-top: -81px;
+}
+
+.bt ul {
+    margin-top:-35px;
+}
+
+.bt li{
+    background-color:#0B0B09;
+    opacity: 0.7;
+    border-radius: 0px;
+    border:none;
+    margin-right: 10px;
+    width:160px;
+    height:40px;
+    padding-top: 10px;
+
+}
+
+.bt li:hover{
+    background-color:transparent;
+    border-radius: 1px;
+    border:2px solid black;
+    padding-top: 7px;
+
+
+}
+
+.bt a {
+    color: white;
+
+}
+.bt a:hover {
+    text-decoration:none;
+}
+
+
+.bt li+li {
+    background-color:#AA9343;
+    opacity: 0.7;
+    border-radius: 0px;
+    border:none;
+    margin-left: 10px;
+}
+
+
+.bt li+li:hover {
+
+    border-radius: 1px;
+    border:2px solid #AA9343;
+}
+
+
+.bt {
+    margin-bottom:100px;
+}
+
+.plate_wrapper {
+    background-image: url(../images/patternback.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.plate_wrapper h2 {
+    color: #D5AB2D;
+    font-weight: bold;
+    padding-top: 40px;
+    font-size: 37px;
+    padding-bottom: 16px;
+
+}
+
+
+.plate_wrapper>div>div+div>img {
+
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+
+
+}
+
+
+
+.plate_wrapper p {
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 19px;
+
+
+}
+
+.plate_wrapper_cook {
+    margin-bottom: 40px;
+}
+
+
+.green_wrapper {
+    background-image: url(../images/green_background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.green_wrapper>div>div {
+    border:1px solid white;
+    background-color: black;
+    opacity: 0.6;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.green_wrapper h1 {
+    color: white;
+    padding:15px;
+}
+
+.green_wrapper p {
+    color: white;
+    padding: 20px;
+    width: 75%;
+}
+
+.green_wrapper>div>div>div+div+div img{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+
+.menu_wrapper {
+    background-image:url(../images/blockpattern.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.menu_wrapper h4  {
+    border-bottom: 1px solid #E2D8B0;
+    box-shadow: 0px .5px 0px #8E886E;
+    color: #D5AB2D;
+    padding-top: 20px;
+}
+.menu_wrapper h4>span{
+    float:right;
+}
+
+
+.menu_wrapper h1 {
+    color: #D5AB2D;
+
+}
+
+.menu_wrapper p{
+    padding:20px;
+
+
+
+
+}
+.menu_wrapper>div>div>div {
+    border:1.5px solid #E2D8B0;
+
+
+}
+
+.menu_wrapper> div > div  {
+    padding:50px;
+    padding-left:170px;
+    padding-right:70px;
+
+
+}
+
+
+.menu_wrapper> div > div+div  {
+    padding:50px;
+    padding-right:170px;
+    padding-left:70px;
+
+
+}
+
+
+.shik_wrapper {
+    background-image: url(../images/sik-kabab.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color:whitesmoke;
+}
+
+
+.shik_wrapper > div > div {
+    background-color: black;
+    opacity: .7;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.shik_wrapper h2 {
+    font-weight: bold;
+    font-size: 45px;
+    margin-top:50px;
+}
+
+
+.shik_wrapper h6 {
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 30px;
+    margin-bottom: 70px;
+}
+
+
+.last_wrapper {
+    background-image: url(../images/patternback.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* last_wrapper2 starts here */
+
+.last_wrapper2 {
+    background-image: url(../images/patternback.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.last_wrapper2 h2 {
+    color: #D5AB2D;
+    font-weight: bold;
+    font-size: -webkit-xxx-large;
+    margin-top: 70px;
+}
+
+.last_wrapper2 p {
+    font-size: 17px;
+
+
+}
+
+
+.last_wrapper2 p+p {
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+form label {
+    color: #D5AB2D;
+}
+
+.last_wrapper2 button {
+    margin-bottom: 40px;
+    border-radius: 1px;
+    background-color:#D5AB2D;
+    color: white;
+    border: none;
+    font-size:18px;
+    padding: 10px 20px;
+
+}
+
+
+.last_wrapper2 button:hover {
+
+
+    color: whitesmoke;
+    border: none;
+    background-color: #DAB33E;
+    text-shadow: 0px 0px 10.9px #F0F7FF;
+    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+}
+
+
+
+
+
+/* last_wrapper2 ends here */
+
+.last_img2 {
+    margin-top: 8px;
+    margin-bottom: 20px; }
+
+.input1 {
+
+
+    border: 1px solid #D5AB2D;
+    border-radius: 1px;
+}
+
+.last_img1{
+    height: 522px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+
+.last_wrapper>div> div+div{
+
+    margin-top: 90px;
+}
+
+.last_wrapper>div> div+div h2{
+
+    color: #D5AB2D;
+    font-weight: bold;
+    font-size: -webkit-xxx-large;
+}
+
+
+.last_wrapper>div> div+div img{
+
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.last_wrapper button {
+    margin-top:25px;
+    margin-bottom: 25px;
+    background-color:#D5AB2D;
+
+    border-radius: 0px;
+    border:none;
+    width:160px;
+    height:40px;
+    transition: width 1s, height 1s;
+
+
+}
+
+.last_wrapper a {
+    text-decoration: none;
+    color:white;
+    transition: font-size 1s;
+
+
+}
+
+
+.last_wrapper a:hover {
+    text-decoration: none;
+
+    font-size:17px;
+
+
+
+}
+
+
+
+.last_wrapper button:hover
+{
+
+    border-radius: 1px;
+    background-color:#D5AB2D;
+    padding-top: 7px;
+    width:180px;
+    height:60px;
+
+
+}
+
+.l1 , .l2 , .l3 {
+    margin-top: 20px;
+}
+.l4 {
+
+    margin-top: 19px;
+}
+
+.inp p {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: #D5AB2D;
+}
+
+.black_wrapper {
+    background-color:#191919;
+
+
+
+}
+
+.col{
+    color: white;
+}
+
+.black_wrapper p , .black_wrapper h3 {
+    color: white;
+}
+
+.black_wrapper i {
+    color: #D5AB2D;
+}
+
+.black_wrapper > div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.black_wrapper img {
+    width: 60%;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+.yellow_wrapper {
+    background-color: #D5AB2D;
+    color: white;
+}
+
+
+.yellow_wrapper>div {
+    margin-top:35px;
+    margin-bottom:25px;
+}
+
+
+.yellow_wrapper a {
+    color: blue;
+}
+
+.yellow_wrapper a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.yellow_wrapper a:active {
+    text-decoration: none;
+    color: green;
+
+}
+
+
+
+
+.yellow_wrapper a:focus{
+    text-decoration: none;
+    color: darkcyan;
+}
+
+
+
+
+/* media query starts here */
+
+
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+
+
+    .menu_wrapper> div > div , .menu_wrapper> div > div+div {
+
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+
+
+
+    .menu_wrapper_salds_vejal {
+        margin-top:0px;
+    }
+
+
+
+    .menu_wrapper_starter_vejal {
+        margin-top: 0px;
+    }
+
+    .menu_wrapper_main_dish_vejal {
+        margin-top: 0px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+    .header_wrapper h1 {
+        font-size: 30px;
+    }
+
+
+    .menu_wrapper> div > div+div {
+        padding: 10px;
+        padding-right: 10px;
+    }
+
+    .menu_wrapper> div > div {
+        padding: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+/* see the menu button media query starts here */
+@media only screen and (max-width: 408px) {
+
+    .bt li{
+        background-color:#0B0B09;
+        opacity: 0.7;
+        border-radius: 0px;
+        border:none;
+        margin-right: 10px;
+        width:120px;
+        height:40px;
+        padding-top: 10px;
+
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 700px) and (min-width:501px){
+
+    .header_wrapper h1 {
+        font-size: 40px;
+    }
+
+
+
+
+    .menu_wrapper> div > div+div {
+        padding: 10px;
+        padding-right: 10px;
+    }
+
+    .menu_wrapper> div > div {
+        padding: 10px;
+        padding-right: 10px;
+    }
+
+
+}
+
+
+@media only screen and  (min-width:992px) and (max-width: 1210px) {
+
+
+
+
+
+
+    .menu_wrapper> div > div+div {
+        padding: 10px;
+        padding-right: 10px;
+    }
+
+    .menu_wrapper> div > div {
+        padding: 10px;
+        padding-right: 10px;
+    }
+
+
+}
+
+
+@media only screen and  (min-width:1280px) and (max-width: 1600px){
+
+
+
+
+    .h1 h1 {
+        color: white;
+        font-weight: bold;
+        font-size: 60px;
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+
+    .plate_wrapper h2 {
+        color: #D5AB2D;
+        font-weight: bold;
+        padding-top: 53px;
+        font-size: 37px;
+        padding-bottom: 16px;
+    }
+
+    .plate_wrapper p {
+        width: 80%;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        font-size: 16px;
+    }
+
+
+    .menu_wrapper> div > div  {
+        padding:120px;
+        padding-left:180px;
+
+
+    }
+
+
+    .menu_wrapper> div > div+div  {
+        padding:120px;
+        padding-right:180px;
+
+
+    }
+
+
+}
+
+
+@media only screen and  (min-width:701px) and (max-width: 1600px){
+
+
+
+
+    .h1 h1 {
+        color: white;
+        font-weight: bold;
+        font-size: 60px;
+        margin-top: 10px;
+        padding: 30px;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 767px){
+
+
+    .menu_wrapper_salds_vejal {
+        margin-top:0px;
+    }
+
+
+
+    .menu_wrapper_starter_vejal {
+        margin-top: 0px;
+    }
+
+    .menu_wrapper_main_dish_vejal {
+        margin-top: 0px;
+    }
+
+
+    .menu_wrapper> div > div , .menu_wrapper> div > div+div {
+
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+
+
+    #parag {
+        width: 70%;
+
+    }
+
+    .im img {
+        margin-top: -66px;
+    }
+
+    .plate_wrapper p {
+        width: 90%;
+
+    }
+
+    .ii i {
+        margin-top: 30px;
+    }
+
+
+    .green_wrapper p {
+
+        width: 90%;
+    }
+
+
+    .shik_wrapper h6 {
+        font-size: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 30px;
+        margin-bottom: 70px;
+    }
+
+
+
+    .last_wrapper>div> div>img {
+        height: 480px;
+        width: 310px;
+        margin-top: 132px;
+        margin-bottom: 60px;
+
+
+    }
+
+    .last_img1{
+        height: 522px;
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+
+
+    .bt {
+        margin-bottom:70px;
+    }
+
+
+    .h1 h1 {
+
+        margin-top: -38px;
+
+    }
+
+    .plate_wrapper_cook {
+        margin-bottom: 20px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media query ends here */
+
+
+/* google maps starts */
+#map{
+    height:100px;
+    width:180px;
+    margin-bottom: 20px;
+}
+
+/* google maps ends here */
+
+
+
+
+/* invisible button css */
+
+.scrollToTop {
+    background: whiteSmoke;
+    padding: 10px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 75px;
+    right: 60px;
+    display: none;
+}
+
+
+.iconn {
+    color: black;
+}
+
+
+
+
+
+/* submit button testing */
+
